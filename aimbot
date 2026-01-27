@@ -1,7 +1,3 @@
-if getgenv().UILoaded98 then return end
-getgenv().UILoaded98 = true
-
-
 --! Debugger
 
 local DEBUG = false
