@@ -295,7 +295,7 @@ do
 
     Tabs.Aimbot:AddParagraph({
         Title = string.format("%s 🔥BEST🔥", string.format(MonthlyLabels[os.date("*t").month], "Kaieyeto’s Aimbot")),
-        Content = "Best Aimbot"
+        Content = "https://raw.githubusercontent.com/kaieyeto/aimbot/refs/heads/main/aimbot"
     })
 
     local AimbotSection = Tabs.Aimbot:AddSection("Aimbot")
@@ -538,11 +538,11 @@ do
         end
     })
 
-    Tabs.Bots = Window:AddTab({ Title = "Bots", Icon = "bot" })
+    Tabs.Bots = Window:AddTab({ Title = "Bot stuff", Icon = "bot" })
 
     Tabs.Bots:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "Best Aimbot"
     })
 
     local SpinBotSection = Tabs.Bots:AddSection("SpinBot")
@@ -700,7 +700,7 @@ do
 
     Tabs.Checks:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "https://raw.githubusercontent.com/kaieyeto/aimbot/refs/heads/main/aimbot"
     })
 
     local SimpleChecksSection = Tabs.Checks:AddSection("Simple Checks")
@@ -1049,7 +1049,7 @@ do
 
     PremiumChecksSection:AddParagraph({
         Title = string.format("%s 💫PREMIUM💫", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Upgrade to unlock all Options✨\nContact @ttwiz_z via Discord to buy"
+        Content = "\nContact @kaieyeto via Discord to buy"
     })
 
     if DEBUG or getfenv().Drawing and getfenv().Drawing.new then
@@ -1057,7 +1057,7 @@ do
 
         Tabs.Visuals:AddParagraph({
             Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-            Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+            Content = "the best aimbot :)"
         })
 
         local FoVSection = Tabs.Visuals:AddSection("FoV")
@@ -1299,7 +1299,7 @@ do
 
     Tabs.Settings:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "Best aimbot"
     })
 
     local UISection = Tabs.Settings:AddSection("UI")
